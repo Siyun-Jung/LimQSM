@@ -71,8 +71,6 @@ def train_generator(input, Mask, Maskmimi, label, traing_loss, iteration):
     # Coarse generator
     coarse_pred = gen_coarse(input).to(device)
 
-
-
     # Loss calculations and backpropagation
     finalg_loss = calculate_gen_loss(coarse_pred, Mask, Maskmimi, label)
     traing_loss += finalg_loss.item()
