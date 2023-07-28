@@ -5,7 +5,7 @@ import scipy.io
 
 from utils import *
 
-
+# This function is adapted from https://github.com/SNU-LIST/QSMnet/blob/master/Code/training_data_patch.py
 ## Data path (Train, .mat file) 
 FILE_PATH_INPUT1 = ''
 FILE_PATH_MASK1 = ''
